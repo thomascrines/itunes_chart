@@ -1,0 +1,29 @@
+body{
+  font-family: 'Reem Kufi', sans-serif;
+  background-color: black;
+}
+
+.container{
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 700px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #E5E7E9;
+}
+
+p {
+  text-align: left;
+}
+
+h3{
+  font-weight: bolder;
+  text-align: left;
+
+}
+
+h2{
+  font-family: 'Bungee Shade', cursive;
+  font-size: 1.9em;
+}
