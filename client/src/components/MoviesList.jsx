@@ -10,7 +10,7 @@ var MoviesList = React.createClass({
   render: function (){
     var movies = this.props.movies.map(function(movie, index){
       return (
-        <MovieDetail key={index} title={movie["im:name"]["label"]} summary={movie['summary']['label']}/>
+        <MovieDetail key={index} title={movie["im:name"]["label"]} summary={movie['summary']['label']} image={movie['im:image'][2]['label']} link={movie['link'][0]['attributes']['href']}/>
       );
     });
 
